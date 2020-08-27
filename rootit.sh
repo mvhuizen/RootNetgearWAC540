@@ -24,3 +24,5 @@ cd ../../
 md5sum wac5xx-ubifs-root.img > wac5xx-ubifs-root.md5sum 
 rm ../WAC505-510_V9.0.0.2_firmware.tar
 tar -cf ../WAC505-510_V9.0.0.2_firmware.tar wac5xx-ubifs-root.img metadata.txt version wac5xx-ubifs-root.md5sum 
+
+echo -e "\e[1;44mUpload this firmware and ssh as user bugzzzhunter with password Pass@123\e[0m"

