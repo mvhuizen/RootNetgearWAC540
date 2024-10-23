@@ -1,13 +1,13 @@
-# Rooting Netgear WAC510
- Modify Netgear WAC firmware to SSH as root user
+# Rooting Netgear WAC540
+ Modify Netgear WAC 540 firmware to SSH as root user
  
- User Created: bugzzzhunter
- Password: Pass@123
+ User Created: sshroot
+ Password: password
  
- Download latest firmware from here - https://www.netgear.com/support/product/WAC510.aspx#download
+ Download latest firmware from here - https://www.netgear.com/support/product/WAC540.aspx#download
  And then place zip file in the same folder.
  
- Every new firmware version might require modifying ubi.ini file. This one works for current firmware version V9.0.0.21
+This one works for last firmware version V9.9.5.1
  
  Unzipped folder contains extracted firmware with our modifications and .tar file will be the modified firmware.
  

